@@ -1,0 +1,201 @@
+<html>
+<title>Marco Jerome</title>
+<style>
+	#first{
+	background-color:blue;
+	color:white;
+	padding:20px;
+	}
+	
+	#qwe{
+	border:1px outset black;
+
+	 margin: 10px;
+	}
+	
+	
+
+	
+	.second{
+	background-color:yellow;
+	color:black;
+	padding:20px;
+	}
+	
+	.div1{
+	border:1px outset black;
+	
+	text-align:center;
+	}
+	
+
+</style>
+	
+
+
+<body>
+<div id="first">
+	<h3> Hello World</h3>
+</div>
+
+<div class="second">
+	<h3> Web Programming</h3>
+</div>
+<br>
+
+<table>
+	<thead>
+	<tr>
+		<th>Category</th>
+		<th>Food</th>
+	</tr>
+	</thead>
+	
+	<tfoot>
+		<tr>
+			<td>Total</td>
+				<td>5</td>
+		</tr>
+	</tfoot>
+	
+	
+	<tbody>
+		<tr>
+			<td rowspan="3">Fruit</td>
+			<td>Orange</td>
+		</tr>
+		<tr>
+			<td>Grapes</td>
+		</tr>
+		<tr>
+			<td>Apple</td>
+		</tr>
+		<tr>
+			<td rowspan="3">Vegetable</td>
+			<td>Carrot</td>
+		</tr>
+		<tr>
+			<td>Broccoli</td>
+		</tr>
+	</tbody>
+</table>
+
+<br>
+
+
+ 
+ <div class="div1">
+
+
+<div id="qwe">
+ <center><h2>Fundamentals</h2></center>
+</div>
+
+<div id="qwe" >
+ <center> <h2>Of</h2></center>
+</div>
+
+<div id="qwe">
+  <center> <h2>Web Programming</h2></center>
+</div>
+
+
+</div> 
+
+<br>
+
+<form style=" margin:50px">
+<h1>Name:</h1>
+  <label for="Firstname">First name:</label><br>
+  
+  <input type="text" name="Firstname"><br>
+  
+  <label for="Lastname">Last name:</label><br>
+  
+  <input type="text" name="Lastname"><br>
+  
+  <label for="Middlename">Middle name:</label><br>
+  
+  <input type="text"  name="Middlename"><br>
+  
+ 
+ <h1>Gender:</h1> 
+ 
+	 <input type="radio">
+  <label for="html">Male</label><br>
+  
+  
+  <input type="radio" >
+  <label for="css">Female</label><br>
+
+  
+   <h1>Gadgets Have:</h1> 
+   
+   <input type="checkbox">
+  <label for="gadgets">Phone</label><br>
+  
+  <input type="checkbox">
+  <label for="gadgets">Computer</label><br>
+  
+  <input type="checkbox">
+  <label for="gadgets">Laptop</label><br>
+  
+  <br>
+  
+    <input type="submit" value="Submit">
+  
+</form>
+
+
+
+<center><embed style width="1280" height="720" src="https://www.youtube.com/embed/86AfPUBisBY" controls></embed>
+</iframe></center>
+<br>
+<center>
+  <audio src="music.mp3" type="audio/mpeg" controls></audio>
+ 
+
+</center>
+
+<br>
+<center>
+<canvas id="myCanvas" width="500" height="500" style="border:5px solid blue;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var a = document.getElementById("myCanvas");
+var atx = a.getContext("2d");
+atx.moveTo(0,0);
+atx.lineTo(500,500);
+atx.stroke();
+
+
+var b = document.getElementById("myCanvas");
+var btx = b.getContext("2d");
+btx.moveTo(0,500);
+btx.lineTo(500,0);
+btx.stroke();
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(250,0);
+ctx.lineTo(250,500);
+ctx.stroke();
+
+
+var d = document.getElementById("myCanvas");
+var dtx = c.getContext("2d");
+dtx.moveTo(0,250);
+dtx.lineTo(500,250);
+dtx.stroke();
+</script>
+</center>
+
+	
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>
